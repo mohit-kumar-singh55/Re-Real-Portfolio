@@ -1,11 +1,18 @@
 import './App.css';
 import { About, Work, Skills, Testimonials, Footer, Header } from "./containers/index";
+import { Navbar } from './components/index';
 
 function App() {
   return (
-    <h1>
-      ようこそ
-    </h1>
+    <div className='app'>
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonials />
+      <Footer />
+    </div>
   );
 }
 
