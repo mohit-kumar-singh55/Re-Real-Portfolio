@@ -1,10 +1,11 @@
 import './App.css';
+import { About, Work, Skills, Testimonials, Footer, Header } from "./containers/index";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <h1>
+      ようこそ
+    </h1>
   );
 }
 
