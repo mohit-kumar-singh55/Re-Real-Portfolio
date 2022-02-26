@@ -52,7 +52,7 @@ const Header = () => {
           alt="profile_circle" />
       </motion.div>
 
-      <motion.div variants={scaleVariants} whileInView={scaleVariants.whileInView} className="appp__header-circles">
+      <motion.div variants={scaleVariants} whileInView={scaleVariants.whileInView} className="app__header-circles">
         {[images.flutter, images.sass, images.redux].map((circle) => (
           <div className="circle-cmp app__flex" key={circle}>
             <img src={circle} alt="circle" />
